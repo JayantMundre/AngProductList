@@ -1,0 +1,23 @@
+<p>create works!</p>
+<mat-toolbar color="primary">
+   
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <mat-icon>menu</mat-icon><br>
+    <button  mat-raised-button color="accent"(click)="btnClick()" >Send Email</button>
+</mat-toolbar>
+
+<div class="card" style="width: 100px;">
+    <div class="card-image">
+        
+        <img src="../../assets/download.jpeg">
+        <span class="">{{pname}}</span>
+
+    </div>
+    <div>
+        <h2>{{id}}</h2>
+        <h2>{{pname}}</h2>
+        <h2>{{price | currency:"INR"}}</h2>
+    </div>
+</div>
+

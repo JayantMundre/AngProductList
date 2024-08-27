@@ -1,0 +1,20 @@
+th,td,tr,div{
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+input{
+    margin: auto;
+    padding: 0%;
+    border-radius: 5px;
+    text-align: center;
+    background-color:yellow;
+    color: purple;
+    
+}
+button{
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+}
